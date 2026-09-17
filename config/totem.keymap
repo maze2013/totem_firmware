@@ -404,65 +404,41 @@
         base_layer {
             display-name = "BASE";
             bindings = <
-       &kp B        &kp L        &kp D            &kp C                    &kp V    &kp J  &kp Y                    &kp O                 &kp U        &kp COMMA
-       &hml LGUI N  &hml LALT R  &hml LCTRL T     &hml LSHFT S             &kp G      &kp P    &hmr RSHFT H             &hmr RCTRL A    &hmr RALT E  &hmr RGUI I
-&kp LSHFT  &kp X        &kp Q        &kp M            &kp W  &kp Z      &kp K    &kp F  &kp SQT         &kp SEMI     &kp PERIOD   &kp RSHFT
-                                     &lt_th EXTRA ESC  &lt_th NAV SPACE         &kp TAB    &kp RET  &lt_th NUM BSPC         &lt_th BT DEL
+                &none &none &none &none &none    &none &none &none &none &none
+                &none &none &none &none &none    &none &none &none &none &none
+                &none &none &none &none &none &none    &none &none &none &none &none &none
+                              &none &none &none    &none &none &none
             >;
         };
 
         sym_layer {
             display-name = "SYM";
-            bindings = <
-            &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO    &kp HOME   &kp INS     &trans     &kp END  &kp DEL
-            &kp LGUI    &kp LALT   &kp LCTRL   &kp LSHFT    &trans        &kp PG_UP  &kp LEFT    &kp DOWN   &kp UP   &kp RIGHT
-&kp K_BACK  &trans      &trans     &trans      &trans       &trans        &kp PG_DN  &caps_word  &kp K_APP  &trans   &trans     &kp K_FORWARD
-                              &trans      &trans       &trans        &trans         &trans      &trans
-            >;
+            status = "reserved";
         };
 
         nav_layer {
             display-name = "NAV";
-            bindings = <
-          &kp PLUS   &kp N7  &kp N8  &kp N9   &kp N0       &trans  &trans     &trans     &trans    &trans
-          &kp STAR   &kp N4  &kp N5  &kp N6   &kp EQUAL    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
-&kp LPAR  &kp MINUS  &kp N1  &kp N2  &kp N3   &kp FSLH     &trans  &trans     &trans     &trans    &trans    &kp RPAR
-                             &trans  &kp DOT  &kp SEMI     &trans  &trans     &trans
-            >;
+            status = "reserved";
         };
 
         hypr_layer {
             display-name = "HYPR";
-            bindings = <
-        &trans  &kp F7  &kp F8  &kp F9  &kp F10    &kp PSCRN        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp SLCK
-        &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp C_PP         &kp LSHFT     &kp LCTRL     &kp LALT    &kp LGUI
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp PAUSE_BREAK  &kp C_BRI_DN  &kp C_BRI_UP  &trans      &trans    &tog SYM
-                        &trans  &trans  &trans     &kp C_PP         &kp C_PREV    &kp C_NEXT
-            >;
+            status = "reserved";
         };
 
         bt_layer {
             display-name = "BT";
-            bindings = <
-        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans     &trans          &trans          &trans        &trans
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &bt BT_CLR        &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&out OUT_USB  &out OUT_BLE  &trans  &trans        &out OUT_TOG  &bt BT_CLR_ALL    &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-                                    &trans        &trans        &trans            &mkp LCLK  &mkp RCLK       &mkp MCLK
-            >;
+            status = "reserved";
         };
 
         num_layer {
             display-name = "NUM";
-            bindings = <
-        &kp TAB         &kp Q         &kp UP_ARROW  &kp E            &kp R     &kp N1  &kp N2     &kp N3         &kp N4   &kp N5
-        &kp LEFT_SHIFT  &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &kp G     &kp N6  &kp N7     &kp N8         &kp N9   &kp N0
-&kp LSHIFT  &kp LCTRL       &kp LEFT_GUI  &kp X         &kp C            &kp V    &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &tog SYM
-                                          &kp ESC       &kp SPACE        &kp F    &kp RET  &kp BSPC  &kp DEL
-            >;
+            status = "reserved";
         };
 
         extra_layer {
             display-name = "EXTRA";
             status = "reserved";
+        };
     };
 };
