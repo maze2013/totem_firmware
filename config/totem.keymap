@@ -436,7 +436,7 @@
             bindings = <
         &trans  &kp F7  &kp F8  &kp F9  &kp F10    &kp PSCRN        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp SLCK
         &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp C_PP         &kp LSHFT     &kp LCTRL     &kp LALT    &kp LGUI
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp PAUSE_BREAK  &kp C_BRI_DN  &kp C_BRI_UP  &trans      &trans    &tog GAME
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp PAUSE_BREAK  &kp C_BRI_DN  &kp C_BRI_UP  &trans      &trans    &tog SYM
                         &trans  &trans  &trans     &kp C_PP         &kp C_PREV    &kp C_NEXT
             >;
         };
@@ -456,7 +456,7 @@
             bindings = <
         &kp TAB         &kp Q         &kp UP_ARROW  &kp E            &kp R     &kp N1  &kp N2     &kp N3         &kp N4   &kp N5
         &kp LEFT_SHIFT  &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &kp G     &kp N6  &kp N7     &kp N8         &kp N9   &kp N0
-&kp LSHIFT  &kp LCTRL       &kp LEFT_GUI  &kp X         &kp C            &kp V    &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &tog GAME
+&kp LSHIFT  &kp LCTRL       &kp LEFT_GUI  &kp X         &kp C            &kp V    &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &tog SYM
                                           &kp ESC       &kp SPACE        &kp F    &kp RET  &kp BSPC  &kp DEL
             >;
         };
