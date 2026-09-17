@@ -407,7 +407,7 @@
        &kp B        &kp L        &kp D            &kp C                    &kp V    &kp J  &kp Y                    &kp O                 &kp U        &kp COMMA
        &hml LGUI N  &hml LALT R  &hml LCTRL T     &hml LSHFT S             &kp G      &kp P    &hmr RSHFT H             &hmr RCTRL A    &hmr RALT E  &hmr RGUI I
 &kp LSHFT  &kp X        &kp Q        &kp M            &kp W  &kp Z      &kp K    &kp F  &kp SQT         &kp SEMI     &kp PERIOD   &kp RSHFT
-                                     &lt_th UTIL ESC  &lt_th NAV SPACE         &kp TAB    &kp RET  &lt_th NUM BSPC         &lt_th FUN DEL
+                                     &lt_th EXTRA ESC  &lt_th NAV SPACE         &kp TAB    &kp RET  &lt_th NUM BSPC         &lt_th BT DEL
             >;
         };
 
